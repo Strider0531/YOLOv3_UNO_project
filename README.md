@@ -23,11 +23,13 @@ Secondly, you should open yolov3/configs.py and set next configs:
   2. TRAIN_ANNOT_PATH (.txt file saved by Dataset_train)
   3. TRAIN_MODEL_NAME (configurate model name)
   4. TEST_ANNOT_PATH (.txt file saved by Dataset_test)
+ 
  Also you can change other configs. For more information follow tips that are mentioned in project tutorial bellow.
 
 https://www.youtube.com/watch?v=kIs9aftuIvE&list=PLbMO9c_jUD473OgrKYYMLRMEz-XZjG--n&index=5&ab_channel=PythonLessons
 
 ================================================================
+
 Link on TensorFlow-2.x-YOLOv3:
 GitHub : https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3  
 
