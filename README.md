@@ -16,7 +16,7 @@ Open Flask_Api_YOLO_ngrok.ipynb notebook, put ngrok token on the second cell and
 
 Open detection_custom_notebook.ipynb. Change os.environ['CUDA_VISIBLE_DEVICES'] = '0' by os.environ['CUDA_VISIBLE_DEVICES'] = '-1' in case if you want to use CPU instead of GPU. Run cell and after that, python must create window with webcam video. Demonstrate some UNO card. Bounding boxes must be created and viewed on cards in realtime.
 
-Training of custom YOLOv3 model in Colab:
+- Training of custom YOLOv3 model in Colab:
 
 Use YOLOv3_colab_training.ipynb. Follow tips that are mentioned in tutorial bellow.
 
