@@ -28,13 +28,7 @@ Secondly, you should open yolov3/configs.py and set next configs:
 
 https://www.youtube.com/watch?v=kIs9aftuIvE&list=PLbMO9c_jUD473OgrKYYMLRMEz-XZjG--n&index=5&ab_channel=PythonLessons
 
-================================================================
+=======================================================================
 
-<<<<<<< HEAD
-  
-=======
 Link on TensorFlow-2.x-YOLOv3:
 GitHub : https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3  
->>>>>>> 4d968d9e08c1af0a0ef59459ee0d90d3ef970bea
-
-
