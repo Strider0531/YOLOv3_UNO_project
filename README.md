@@ -2,6 +2,8 @@ This YOLOv3_UNO_project is the modified TensorFlow-2.x-YOLOv3 project.
 
 ================================================================
 
+Project developed in Python 3.7
+
 YOLOv3_UNO_project configured for UNO cards recognition. Example image of YOLOv3 algorithm - img_after_yolo.jpg image whitch is on static/images directory.
 
 Using of UNO cards recognition project:
