@@ -10,13 +10,15 @@ Using of UNO cards recognition project:
 
 - Image detection:
 
-Open Flask_Api_YOLO_ngrok.ipynb notebook, put ngrok token on the second cell and run all cells. Use webpage for uploading UNO card image (in jpg, JPEG format). Click on "predict image" button, after that API must demonstrate resulted image with bounding boxes. 
+Open Flask_Api_YOLO_ngrok.ipynb notebook, put ngrok token on the second cell and run all cells. Use webpage for uploading UNO card image (in jpg, JPEG format). Click on "predict image" button, after that API must return resulted image with bounding boxes. 
 
 ![alt text](https://github.com/Strider0531/YOLOv3_UNO_project/blob/master/static/images/img_after_yolo.jpg?raw=true)
 
 - Detection with webcam (using of GPU highly recommended):
 
 Open detection_custom_notebook.ipynb. Change os.environ['CUDA_VISIBLE_DEVICES'] = '0' by os.environ['CUDA_VISIBLE_DEVICES'] = '-1' in case if you want to use CPU instead of GPU. Run cell and after that, python must create window with webcam video. Demonstrate some UNO card. Bounding boxes must be created and viewed on cards in realtime.
+
+![alt text](https://github.com/Strider0531/YOLOv3_UNO_project/blob/master/IMAGES/web_example.jpg?raw=true)
 
 - Training of custom YOLOv3 model in Colab:
 
