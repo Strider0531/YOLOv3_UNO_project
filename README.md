@@ -2,15 +2,19 @@ This YOLOv3_UNO_project is the modified TensorFlow-2.x-YOLOv3 project.
 
 ================================================================
 
-YOLOv3_UNO_project configured for UNO cards recognition. Example image of YOLOv3 algorithm - img_after_yolo.jpg image whitch is on static/images directory.
+Project developed in Python 3.7
+
+YOLOv3_UNO_project configured for UNO cards detection.
 
 Using of UNO cards recognition project:
 
-- Recognition from image:
+- Image detection:
 
 Open Flask_Api_YOLO_ngrok.ipynb notebook, put ngrok token on the second cell and run all cells. Use webpage for uploading UNO card image (in jpg, JPEG format). Click on "predict image" button, after that API must demonstrate resulted image with bounding boxes. 
 
-- Recognition from webcam (using of GPU highly recommended):
+![alt text](https://github.com/Strider0531/YOLOv3_UNO_project/blob/master/static/images/img_after_yolo.jpg?raw=true)
+
+- Detection with webcam (using of GPU highly recommended):
 
 Open detection_custom_notebook.ipynb. Change os.environ['CUDA_VISIBLE_DEVICES'] = '0' by os.environ['CUDA_VISIBLE_DEVICES'] = '-1' in case if you want to use CPU instead of GPU. Run cell and after that, python must create window with webcam video. Demonstrate some UNO card. Bounding boxes must be created and viewed on cards in realtime.
 
@@ -28,13 +32,7 @@ Secondly, you should open yolov3/configs.py and set next configs:
 
 https://www.youtube.com/watch?v=kIs9aftuIvE&list=PLbMO9c_jUD473OgrKYYMLRMEz-XZjG--n&index=5&ab_channel=PythonLessons
 
-================================================================
+=======================================================================
 
-<<<<<<< HEAD
-  
-=======
 Link on TensorFlow-2.x-YOLOv3:
 GitHub : https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3  
->>>>>>> 4d968d9e08c1af0a0ef59459ee0d90d3ef970bea
-
-
